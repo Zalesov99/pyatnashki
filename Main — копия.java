@@ -94,5 +94,10 @@ public class Main extends JFrame { // класс Main в данной работ
             }
         }
 
-   
+   if (counter % 2 != 0) {
+            int temp = numbers[0][0];
+            numbers[0][0] = numbers[3][3];
+            numbers[3][3] = temp;
+        }
+    }
 }
